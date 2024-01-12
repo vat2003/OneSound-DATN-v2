@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ManagealbumAdminComponent } from './managealbum-admin.component';
+import { ManagealbumAdminComponent } from './ManagealbumAdminComponent';
 
 describe('ManagealbumAdminComponent', () => {
   let component: ManagealbumAdminComponent;
@@ -10,8 +10,8 @@ describe('ManagealbumAdminComponent', () => {
     await TestBed.configureTestingModule({
       imports: [ManagealbumAdminComponent]
     })
-    .compileComponents();
-    
+      .compileComponents();
+
     fixture = TestBed.createComponent(ManagealbumAdminComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
