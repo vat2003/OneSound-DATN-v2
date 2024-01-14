@@ -25,24 +25,30 @@
           <script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
           <label class="form-label">Album image</label>
           <div class="file-upload">
-            <button class="file-upload-btn" type="button" onclick="$('.file-upload-input').trigger( 'click' )">Add Image</button>
+            <button class="file-upload-btn" type="button" onclick="$('.file-upload-input').trigger( 'click' )">Add
+              Image
+            </button>
 
             <div class="image-upload-wrap">
-              <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
+              <!--              <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />-->
+              <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*"/>
+
               <div class="drag-text">
                 <h3>Drag and drop a file or select add Image</h3>
               </div>
             </div>
             <div class="file-upload-content">
-              <img class="file-upload-image" src="#" alt="your image" />
+              <img class="file-upload-image" src="#" alt="your image"/>
               <div class="image-title-wrap">
-                <button type="button" onclick="removeUpload()" class="remove-image">Remove <span class="image-title">Uploaded Image</span></button>
+                <button type="button" onclick="removeUpload()" class="remove-image">Remove <span class="image-title">Uploaded Image</span>
+                </button>
               </div>
             </div>
           </div>
           <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Singer</label>
-            <input type="text" class="form-control mb-4 border-light border-2" style="border-radius: 20px;" placeholder="Search">
+            <input type="text" class="form-control mb-4 border-light border-2" style="border-radius: 20px;"
+                   placeholder="Search">
             <table class="table table-dark">
               <thead>
               <tr>
@@ -101,7 +107,9 @@
             <td>jhonemail.com</td>
             <td>John</td>
             <td>0328645096</td>
-            <td><button class="btn btn-primary">Detail</button></td>
+            <td>
+              <button class="btn btn-primary">Detail</button>
+            </td>
           </tr>
 
           </tbody>
